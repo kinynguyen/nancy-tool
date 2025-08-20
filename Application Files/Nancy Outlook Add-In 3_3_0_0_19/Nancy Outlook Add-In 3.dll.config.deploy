@@ -37,6 +37,15 @@
             <setting name="CurrentUser" serializeAs="String">
                 <value />
             </setting>
+            <setting name="BinPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TemPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="NancyPath" serializeAs="String">
+                <value />
+            </setting>
         </NancyOutlookAddIn.MySettings>
     </userSettings>
 </configuration>
