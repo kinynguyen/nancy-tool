@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<group id="gptAI" label="AI Reply Beta V1.0">
+	<comboBox id="cbxData"
+		  label="Data"
+		  getItemCount="GetItemCount"
+		  getItemLabel="GetItemLabel"
+		  onChange="Combo_OnChange"
+		  sizeString="XXXXXXXXXX"
+		  showLabel="true"
+		  getVisible="GetVisible_Role"/>
+	<button id="bntRefeshCbxData"
+		  label="Refesh List Data"
+		  imageMso="SendReceiveAll"
+		  size="normal"
+		  onAction="BntRefeshCbxData"
+		  getVisible="GetVisible_Role"/>
+	<button id="bntAIReply"
+		  label="AI Reply Test"
+		  imageMso="PictureCorrectionsMenu"
+		  size="large"
+		  onAction="CallTest"
+		  getVisible="GetVisible_Role"/>
+</group>
+<button id="bntNM1"
+				label="Check chuyển cảng"
+				imageMso="EmailMergeWizard"
+				size="large"
+				onAction="NewMail1"
+				getVisible="false"/>
